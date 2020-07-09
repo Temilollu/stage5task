@@ -158,6 +158,14 @@ form a {
   .topaz {
     margin-top: 0.5rem !important;
   }
+
+  .main-section .capture-container p {
+    width: 100%;
+  }
+
+  .main-section {
+    margin-top: 1rem;
+  }
 }
 .topaz {
   margin-top: 3rem;
