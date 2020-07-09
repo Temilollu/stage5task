@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #E5E5E5;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-item{
+    margin-right: 2rem;
+}
+.navbar{
+    background: inherit !important;
+    padding-left: 5rem !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+.navbar-light .navbar-brand,
+.nav-link{
+    color: #000000 !important;;
+}
+
+.main-section{
+    font-family: 'Lora', serif;
+    margin-top: 2rem;
+    h2{
+        font-weight: bold;
+    }
+    a{
+        text-decoration: none;
+        padding: .7rem 2rem;
+        background: #D22F30;
+        color: white;
+        margin-bottom: 1rem;
+    }
+    .first img{
+        width: 95%;
+        margin: .5rem !important;
+    }
+    .capture-container{
+        margin-bottom: 2rem;
+        p{
+            color: #000000;
+            width: 450px;
+        }
+    }
+}
+.about-us{
+    div{
+        margin: 2rem; 
+        h2{
+           color: #D22F30;
+        }
+    }
+   
+}
+#carouselExampleControls{
+    display: none;
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    p{
+        position: relative;
+        top: -90px;
+        color: white;
+        font-weight: bold;
+    }
+}
+.desktop-gallery div{
+    width: fit-content;
+}
+.desktop-gallery img{
+    margin: 1.5rem !important;
+    width: 90%;
+    margin-left: 0 !important;
+}
+.middle img{
+    margin-right: 0 !important;
+}
+
+form{
+    input, textarea{
+        border: none;
+        border-bottom: 1px solid #000000;
+        margin-bottom: 3.8rem;
+    }
+    input{
+        width: 230px;
+    }
+    textarea{
+        width: -webkit-fill-available;
+        height: 150px;
+       padding-top: 3rem;
+      border-bottom:  2px solid #0000005e ;
+    }
+    a{
+        text-decoration: none;
+        padding: .7rem 2rem;
+        background: #D22F30;
+        color: white;
+        margin-bottom: 4rem;
+    }
+}
+@media(max-width : 700px){
+    .navbar{
+      
+        padding: .5rem 1rem !important;;
+       
+    }
+   .main-section .first .img-a{
+        margin-left: 0 !important;
+    }
+    .main-section .row{
+        display: flex;
+    
+         .capture{
+             order: 1;
+         }
+    }
+    .wrapper {
+        img{
+            height: auto;
+        }
+    }
+    .desktop-gallery{
+        div{
+        display: none  !important;
+        }
+      }
+      .carousel-item img{
+        height: fit-content;
+      }
+      #carouselExampleControls{
+        display: block;
+    }
+    form{
+      input{
+        width: auto;
+        margin: 0 !important;
+    }  
+    }
+    .contact{
+        h3,h4{
+            text-align: center;
+        }
+    }
+    .footer{
+        text-align: center;
+    }
+   .topaz{
+       margin-top: .5rem !important;
+   } 
+}
+.topaz{
+        margin-top: 3rem;
+    }
